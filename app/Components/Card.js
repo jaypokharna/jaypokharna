@@ -11,9 +11,9 @@ const Card = (props) => {
       <Image src={props.image} className="rounded-t-lg h-[100%] w-[500px]" width={256} height={256} />
       </div>
 
-      <div className="info px-4 py-5 flex flex-col gap-1">
-        <div className='text-black text-lg font-bold leading-5'>{props.project}</div>
-        <div className='text-black text-xs font-light leading-3'>{props.skills}</div>
+      <div className="info px-4 py-5 flex flex-col gap-1 max-mb:py-3">
+        <div className='text-black text-lg font-bold leading-5 max-mb:text-2xl'>{props.project}</div>
+        <div className='text-black text-xs font-light leading-3 max-mb:text-sm'>{props.skills}</div>
       </div>
 
     </motion.a>

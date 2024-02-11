@@ -8,8 +8,7 @@ import Skills from './Skills'
 const Rightbox = () => {
   return (
     <>
-    <div className="rightmain w-[78%] h-[100%]  relative ml-[22%] overflow-x-hidden">
-       
+    <div className="rightmain w-[78%] h-[100%] relative ml-[22%] overflow-x-hidden max-mb:ml-0 max-mb:w-[100%]">
     <Navbar/>
     <Banner/>
     <Projects/>

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const Skills = () => {
   return (
    <>
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} className="skills w-full h-fit px-[3%] py-[3%] flex justify-between">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} className="skills w-full px-[3%] py-[3%] flex justify-between max-mb:flex-col max-mb:p-0">
         
         <SkillsBoxes/>
         <ExtraProjects/>

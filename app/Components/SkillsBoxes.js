@@ -3,13 +3,13 @@ import React from 'react'
 const SkillsBoxes = () => {
   return (
     <>
-        <div className="skills-boxes w-full h-[300px] px-6 relative top-8">
+        <div className="skills-boxes w-full h-[300px] px-6 relative top-8 max-mb:top-[100%] max-mb:block max-mb:h-[90vh] max-mb:px-[4%]">
 
-           <div className="whatiknow  py-[2%] text-xl font-[500] ">
+           <div className="whatiknow  py-[2%] text-xl font-[500] max-mb:pb-6 max-mb:pt-3 text-center">
             What I know
            </div>
 
-           <div className="skills w-full  h-[100%] flex  gap-4 justify-between pr-5">
+           <div className="skills w-full h-[100%] flex gap-4 justify-between pr-5 max-mb:flex-col max-mb:pr-0 max-mb:h-[90%]">
 
            <div className="flex-1 flex flex-col gap-4 p-4 rounded-md shadow-lg bg-[rgb(28,27,34)]">
                   <h2 className="text-primary font-medium text-lg">Frontend</h2>
