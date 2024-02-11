@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="navbar w-[100%] h-[10vh] relative max-mb:flex max-mb:justify-between max-mb:h-[7vh]">
 
-        <div className="top flex px-[10%] py-[7%] gap-1 max-mb:py-0 items-center">
+        <div className="top flex max-mb:px-[10%] max-mb:gap-1 max-mb:py-0 max-mb:items-center hidden">
           <div className="circles w-4 h-4 rounded-[50%] bg-green-400"></div>
           <div className="circles w-4 h-4 rounded-[50%] bg-green-400"></div>
         </div>
