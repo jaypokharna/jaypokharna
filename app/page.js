@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Leftbox from './Components/Leftbox'
 import Rightbox from './Components/Rightbox'
 import { motion } from "framer-motion";
@@ -9,6 +9,42 @@ const page = () => {
 
 const [visible, setVisible] = useState(false)
 const [mainVisible, setmainVisible] = useState(true)
+
+// if(window.innerWidth < 431){
+//   console.log("on a mobile device")
+//   setVisible(false)
+// }
+
+useEffect(() => {
+  if (window.innerWidth < 431) {
+    setVisible(false);
+  } else {
+    setVisible(true);
+  }
+
+  return () => {
+  }
+}, [])
+
+
+// useEffect(() => {
+
+//     if (window.innerWidth < 431) {
+//       setVisible(false);
+//     } else {
+//       setVisible(true);
+//     }
+//   };
+
+// //   // Add event listener for window resize
+// //   window.addEventListener('resize', handleResize);
+
+// //   // Clean up event listener on component unmount
+// //   return () => {
+// //     window.removeEventListener('resize', handleResize);
+// //   };
+// }, []); // Empty dependency array ensures effect runs only once
+
 
   return (
     <>
