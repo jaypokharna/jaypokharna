@@ -5,7 +5,7 @@ const SkillsBoxes = () => {
     <>
         <div className="skills-boxes w-full h-[300px] px-6 relative top-8 max-mb:top-[100%] max-mb:block max-mb:h-[90vh] max-mb:px-[4%]">
 
-           <div className="whatiknow  py-[2%] text-xl font-[500] max-mb:pb-6 max-mb:pt-3 text-center">
+           <div className="whatiknow  py-[2%] text-xl font-[500] max-mb:pb-6 max-mb:pt-0 max-mb:text-center max-mb:text-xl max-mb:font-semibold">
             What I know
            </div>
 

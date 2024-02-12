@@ -15,9 +15,9 @@ const ExtraProjects = (props) => {
 
   return (
     <>
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} className="extra-projects h-fit w-[32%] bg-[rgb(28,27,34)] px-6 py-8 max-mb:w-auto max-mb:mx-[4%] max-mb:h-auto max-mb:mb-3">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} className="extra-projects h-fit w-[32%] bg-[rgb(28,27,34)] px-6 py-8 max-mb:w-auto max-mb:mx-[4%] max-mb:h-auto max-mb:my-4 max-mb:px-5">
         <div className=" font-[500] text-xl max-mb:text-center">Other Projects</div>
-        <div className="other-projects w-full h-[100%] pt-[12%] pb flex flex-col gap-6">
+        <div className="other-projects w-full h-[100%] pt-[12%] pb flex flex-col gap-6 max-mb:pt-[10%]">
 
           <a href="https://github.com/jaypokharna/url-shortner"
             className="flex cursor-pointer"

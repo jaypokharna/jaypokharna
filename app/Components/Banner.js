@@ -6,9 +6,9 @@ import { Linkedin } from 'lucide-react'
 const Banner = () => {
   return (
     <>
-    <div className="banner w-[100%] h-[21vh] relative bg-[url('/images/background.svg')] flex items-center px-9 justify-between max-mb:h-[15vh] max-mb:px-5 max-mb:justify-center">
+    <div className="banner w-[100%] h-[21vh] relative bg-[url('/images/background.svg')] flex items-center px-9 justify-between max-mb:h-auto max-mb:px-5 max-mb:justify-center">
 
-        <div className='flex items-center gap-5 w-fit max-mb:gap-3'>
+        <div className='flex items-center gap-5 w-fit max-mb:gap-3 max-mb:my-[4%]'>
             <Image
             src={"/images/dp.svg"}
             alt="Author's Picture"
