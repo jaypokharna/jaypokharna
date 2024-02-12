@@ -14,6 +14,7 @@ const Banner = () => {
             alt="Author's Picture"
             width={0}
             height={0}  
+            priority={true} loading="eager"
             className=' w-32 h-32 rounded-[50%] border-4 border-white max-mb:w-[105px] max-mb:h-[105px]'
             />
               <div className='w-fit'>

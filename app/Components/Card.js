@@ -8,7 +8,7 @@ const Card = (props) => {
     <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} href={props.link} className=' bg-white rounded-lg'>
 
       <div className="card-image rounded-t-lg bg-black  h-[55%]">
-      <Image src={props.image} className="rounded-t-lg h-[100%] w-[500px]" width={256} height={256} />
+      <Image src={props.image} className="rounded-t-lg h-[100%] w-[500px]" alt='Project Card' width={256} height={256} priority={true} loading="eager"/>
       </div>
 
       <div className="info px-4 py-5 flex flex-col gap-1 max-mb:py-3">
