@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Home } from "lucide-react";
 import { PanelsTopLeft } from "lucide-react";
 import { Instagram } from "lucide-react";
@@ -7,8 +7,8 @@ import { Github } from "lucide-react";
 import { Twitter } from "lucide-react";
 import Social from "./Social";
 import { X } from 'lucide-react';
-
-
+import { StickyNote } from 'lucide-react';
+import { CodeSquare } from 'lucide-react';
 
 const Leftbox = ({visible,setVisible,mainVisible,setmainVisible}) => {
   
@@ -28,7 +28,6 @@ const Leftbox = ({visible,setVisible,mainVisible,setmainVisible}) => {
         }}
         ><X size={30}/></button>
         </div>
-
         <div className="two w-[90%] h-[90%] relative left-[50%] translate-x-[-50%] rounded-lg bg-[rgb(28,27,34)] pt-8 pl-[8%] m max-mb:p-0 max-mb:absolute max-mb:h-fit max-mb:w-fit max-mb:top-[50%] max-mb:translate-y-[-50%]">
           <div className="two-top h-fit w-full flex flex-col gap-8 mb-[34px] ml-[6%]">
             <Social
@@ -41,6 +40,10 @@ const Leftbox = ({visible,setVisible,mainVisible,setmainVisible}) => {
               image={<PanelsTopLeft size={24} color="#ffffff" />}
               link="/"
             />
+           <Social
+                name="Resume"
+                image={<CodeSquare size={24} color="#ffffff" />}
+              />
           </div>
 
           <div className="two-dots">
