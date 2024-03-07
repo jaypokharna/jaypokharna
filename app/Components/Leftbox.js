@@ -14,7 +14,7 @@ const Leftbox = ({visible,setVisible,mainVisible,setmainVisible}) => {
   
   return (
   <>
-    {visible && <div className="leftbox w-[22%] h-[100vh] bg-[rgb(20,19,25)] fixed left-0 top-[50%] translate-y-[-50%] px-2 max-mb:absolute max-mb:z-[999] max-mb:w-full max-mb:p-0 max-mb:bg-[rgb(28,27,34)] max-mb:overflow-hidden max-mb:h-full">
+    {visible && <div className="leftbox w-[22%] h-[96vh] bg-[rgb(20,19,25)] fixed left-0 top-[50%] translate-y-[-50%] px-2 max-mb:absolute max-mb:z-[999] max-mb:w-full max-mb:p-0 max-mb:bg-[rgb(28,27,34)] max-mb:overflow-hidden max-mb:h-full">
         <div className="top flex px-[10%] py-[7%] gap-1 max-mb:hidden">
           <div className="circles w-4 h-4 rounded-[50%] bg-green-400"></div>
           <div className="circles w-4 h-4 rounded-[50%] bg-green-400"></div>

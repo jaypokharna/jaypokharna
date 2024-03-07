@@ -5,15 +5,15 @@ import {motion} from 'framer-motion'
 const Card = (props) => {
   return (
     <>
-    <motion.a initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} href={props.link} className=' bg-white rounded-lg' target='_blank'>
+    <motion.a  className='bg-white rounded-lg grid grid-rows-2 grid-flow-col gap-3'  initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} href={props.link} target='_blank'>
 
-      <div className="card-image rounded-t-lg bg-black  h-[55%]">
-      <Image src={props.image} className="rounded-t-lg h-[100%] w-[500px]" alt='Project Card' width={256} height={256} priority={true} loading="eager"/>
+      <div className="card-image rounded-t-lg bg-black  h-[55%] row-span-1">
+      <Image src={props.image} className=" rounded-t-lg w-[500px]" alt='Project Card' width={256} height={256} priority={true} loading="eager"/>
       </div>
 
-      <div className="info px-4 py-5 flex flex-col gap-1 max-mb:py-3">
-        <div className='text-black text-lg font-bold leading-5 max-mb:text-2xl'>{props.project}</div>
-        <div className='text-black text-xs font-light leading-3 max-mb:text-sm'>{props.skills}</div>
+      <div className="info h-fit px-4 py-0 flex flex-col gap-2 max-mb:py-3 row-span-1">
+        <div className='text-black text-md font-bold leading-5 max-mb:text-2xl'>{props.project}</div>
+        <div className='text-black text-xs font-light leading-3 max-mb:text-sm w-[90%]'>{props.skills}</div>
       </div>
 
     </motion.a>
