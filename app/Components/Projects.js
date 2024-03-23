@@ -22,11 +22,17 @@ const Projects = () => {
             skills="Socket.IO, ReactJS, ExpressJS, NodeJS, TailwindCSS"
             link="https://github.com/jaypokharna/CodeLive"
           />
-          <Card
+          {/* <Card
             project="Apple Vision Pro"
             image="/images/apple3.jpeg"
             skills="GSAP Framework, Locomotive, TailwindCSS"
             link="https://github.com/jaypokharna/Apple-Vision-Pro"
+          /> */}
+           <Card
+            project="Dalle 2"
+            image="/images/dalle4.jpeg"
+            skills="OpenAI, Python, Django, HTML, JavaScript, TailwindCSS"
+            link="https://github.com/jaypokharna/Dalle-2-AI-Image-Generation"
           />
           <Card
             project="ChatGPT Clone"
